@@ -38,13 +38,13 @@ function rememberChoice(event) {
     } else if (event.target === bottom) {
         choice = bottom;
     } else {
-        console.log("ignore");
+        choice = event.target;
     }
 
     chooseColour();
 }
 
-function chooseColour(c) {
+function chooseColour() {
     const btn = document.querySelectorAll(".btn");
 
     btn.forEach(b => {
