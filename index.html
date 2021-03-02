@@ -14,16 +14,26 @@
         svg {
             pointer-events: fill;
         }
+
+        .palette {
+            background-color: rgb(241, 172, 22);
+            padding: 20px;
+            border-radius: 4px;
+        }
     </style>
 </head>
 
 <body>
     <section></section>
-    <svg height="100" width="400">
-        <circle class="btn" cx="50" cy="50" r="40" fill="red" />
-        <circle class="btn" cx="150" cy="50" r="40" fill="blue" />
-        <circle class="btn" cx="250" cy="50" r="40" fill="orange" />
-        <circle class="btn" cx="350" cy="50" r="40" fill="green" />
+    <svg class="palette" height="200" width="400">
+        <circle class="btn" cx="50" cy="50" r="40" fill="brown" />
+        <circle class="btn" cx="150" cy="50" r="40" fill="rgb(22, 111, 184)" />
+        <circle class="btn" cx="250" cy="50" r="40" fill="rgb(209, 127, 50)" />
+        <circle class="btn" cx="350" cy="50" r="40" fill="rgb(0, 128, 79)" />
+        <circle class="btn" cx="50" cy="150" r="40" fill="#000" />
+        <circle class="btn" cx="150" cy="150" r="40" fill="#fff" />
+        <circle class="btn" cx="250" cy="150" r="40" fill="rgb(218, 44, 151)" />
+        <circle class="btn" cx="350" cy="150" r="40" fill="rgb(230, 211, 48)" />
     </svg>
 
     <script src="script.js"></script>

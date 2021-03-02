@@ -54,13 +54,21 @@ function chooseColour() {
     function colourChosen(event) {
         if (event.target === btn[0]) {
             console.log(choice);
-            choice.style.fill = "red";
+            choice.style.fill = "brown";
         } else if (event.target === btn[1]) {
-            choice.style.fill = "blue";
+            choice.style.fill = "rgb(22, 111, 184)";
         } else if (event.target === btn[2]) {
-            choice.style.fill = "orange";
+            choice.style.fill = "rgb(209, 127, 50)";
         } else if (event.target === btn[3]) {
-            choice.style.fill = "green";
+            choice.style.fill = "rgb(0, 128, 79)";
+        } else if (event.target === btn[4]) {
+            choice.style.fill = "#000";
+        } else if (event.target === btn[5]) {
+            choice.style.fill = "#fff";
+        } else if (event.target === btn[6]) {
+            choice.style.fill = "rgb(218, 44, 151)";
+        } else if (event.target === btn[7]) {
+            choice.style.fill = "rgb(230, 211, 48)";
         } else {
             console.log("nope");
         }
