@@ -1,5 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 664 280">
-  <title>shoe</title>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 664 280" class="shoe">
   <g id="shoe-laces" style="isolation: isolate">
     <path d="M291,35c16.84-.09,27.72,3.18,30,18-19.55-8.44-27,3.27-44,2-.67-3.33-1.33-6.67-2-10Z" fill="yellow" fill-rule="evenodd"/>
     <path d="M324,59c13.58,1.9,23.75,7.6,28,19h-1c-10.86-5.35-20.14-4.21-33,0-4.54-2.49-5.95-3.86-7-10C315.55,65.3,321.21,63.78,324,59Z" fill="yellow" fill-rule="evenodd"/>
